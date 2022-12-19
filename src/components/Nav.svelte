@@ -3,7 +3,7 @@
 
 <nav style="position: sticky;" class="flex pt-6 top-0 justify-between mx-auto w-full px-4">
 	<div class="logo">
-		<img src="src/images/logo/Framelogo.svg" class="-mb-5" alt="" />
+		<img src="/images/content/Framelogo.svg" class="-mb-5" alt="" />
 		<div class="ml-6 text-4xl font-holy text-orange-400 ">magasin</div>
 	</div>
 	<div class="links">

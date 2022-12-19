@@ -4,14 +4,14 @@
 
 @font-face {
 	font-family: 'Holybuck';
-	src: url('./fonts/Holybuckdemo.otf');
+	src: url('/fonts/Holybuckdemo.otf');
 	/* font-weight: 400; */
 	/* font-style: normal; */
 }
 
 @font-face {
 	font-family: 'Alaska';
-	src: url('./fonts/Alaska-VF.ttf');
+	src: url('/fonts/Alaska-VF.ttf');
 }
 
 * {

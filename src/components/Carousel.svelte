@@ -1,7 +1,7 @@
 <!-- A carousel that changes images after every 3 secs and loops through all the images -->
 
 <script> 
-  const images = [1, 2, 3, 4, 5].map((i) => `./src/images/content/carousel/${i}.png`); 
+  const images = [1, 2, 3, 4, 5].map((i) => `/images/content/carousel/${i}.png`); 
 
   let index = 0;
 

@@ -50,7 +50,7 @@
 			</div>
 		</div>
 		<div class="w-1/2">
-			<img src="./src/images/content/family.png" alt="" />
+			<img src="/images/content/family.png" alt="" />
 		</div>
 	</div>
 	
@@ -69,7 +69,7 @@
 	
 	<div class="flex space-x-4">
 		<div class="w-1/2">
-			<img src="./src/images/content/man.png" alt="" />
+			<img src="/images/content/man.png" alt="" />
 		</div>
 	
 		<div class="bg-[#415A48] w-1/2 pt-20 pb-12 rounded-xl px-14 text-white">
@@ -115,9 +115,9 @@
 			</div>
 		</div>
 		<div class="w-[60%] flex overflow-clip">
-			<img class="h-fit z-10 relative top-72" src="./src/images/content/fireplace1.png" alt="" />
-			<img class="h-fit z-20 relative right-36" src="./src/images/content/fireplace2.png" alt="" />
-			<img class="h-fit z-30 relative top-44 right-60" src="./src/images/content/fireplace3.png" alt="" />
+			<img class="h-fit z-10 relative top-72" src="/images/content/fireplace1.png" alt="" />
+			<img class="h-fit z-20 relative right-36" src="/images/content/fireplace2.png" alt="" />
+			<img class="h-fit z-30 relative top-44 right-60" src="/images/content/fireplace3.png" alt="" />
 		</div>
 	</div>
 	
@@ -173,7 +173,7 @@
 								<h1 class="font-[500] text-[5.6rem]">1</h1>
 								<img
 									class="relative bottom-9 right-16"
-									src="./src/images/content/scroll/1.png"
+									src="/images/content/scroll/1.png"
 									alt=""
 								/>
 							</div>
@@ -188,7 +188,7 @@
 								<h1 class="font-[500] text-[5.6rem]">2</h1>
 								<img
 									class="relative bottom-9 right-48"
-									src="./src/images/content/scroll/2.png"
+									src="/images/content/scroll/2.png"
 									alt=""
 								/>
 							</div>
@@ -203,7 +203,7 @@
 								<h1 class="font-[500] text-[5.6rem]">3</h1>
 								<img
 									class="relative bottom-9 right-24"
-									src="./src/images/content/scroll/3.png"
+									src="/images/content/scroll/3.png"
 									alt=""
 								/>
 							</div>
@@ -217,7 +217,7 @@
 						<div class="px-20">
 							<div class="flex justify-between items-end">
 								<h1 class="font-[500] text-[5.6rem]">4</h1>
-								<img class="relative right-32" src="./src/images/content/scroll/4.png" alt="" />
+								<img class="relative right-32" src="/images/content/scroll/4.png" alt="" />
 							</div>
 							<h3 class="text-3xl font-semibold">Finitions</h3>
 							<p class="text-lg mt-3 leading-snug">
@@ -228,7 +228,7 @@
 						<div class="px-20">
 							<div class="flex justify-between items-end">
 								<h1 class="font-[500] text-[5.6rem]">5</h1>
-								<img class="relative right-14 top-2" src="./src/images/content/scroll/5.png" alt="" />
+								<img class="relative right-14 top-2" src="/images/content/scroll/5.png" alt="" />
 							</div>
 							<h3 class="text-3xl font-semibold">Suivi & Entretien</h3>
 							<p class="text-lg mt-3 leading-snug">
@@ -284,7 +284,7 @@
 			</div>
 		</div>
 		<div class="w-1/2">
-			<img src="./src/images/content/store.png" alt="" />
+			<img src="/images/content/store.png" alt="" />
 	
 			<div class="flex justify-between text-black">
 				<div class="w-1/2">
@@ -322,5 +322,10 @@
 		/* display: none; */
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
+		
 	}
+
+	.hide-bar::-webkit-scrollbar {
+  display: none;
+}
 </style>
