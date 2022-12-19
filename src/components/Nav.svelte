@@ -1,10 +1,10 @@
 <script>
 </script>
 
-<nav class="flex mt-6 justify-between mx-auto sticky">
-	<div class="logo w-24 ">
-		<img src="src/images/logo/Framelogo.svg" class="-mb-2" alt="" />
-		<div class="ml-6 text-3xl font-holy text-orange-400 ">magasin</div>
+<nav style="position: sticky;" class="flex pt-6 top-0 justify-between mx-auto w-full px-4">
+	<div class="logo">
+		<img src="src/images/logo/Framelogo.svg" class="-mb-5" alt="" />
+		<div class="ml-6 text-4xl font-holy text-orange-400 ">magasin</div>
 	</div>
 	<div class="links">
 		<ul class="flex w-full space-x-6 bg-white rounded-2xl py-2 px-6">
@@ -12,7 +12,7 @@
 			<li><a href="#">La marque Turbofonte</a></li>
 			<li><a href="#">Nos conseils</a></li>
 			<li><a href="#">Le magasin</a></li>
-			<li><a href="#">Prendre rendez-vous</a></li>
+			<li class="relative"><a href="#">Prendre rendez-vous <div class="h-1.5 w-1.5 rounded-full absolute bg-green-600 -right-2 top-0"/> </a></li>
 		</ul>
 	</div>
 

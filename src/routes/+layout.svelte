@@ -4,8 +4,7 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
-<div class="relative px-4 font-light">
+<div class="relative font-light">
 	<Nav />
 	<slot />
-
 </div>

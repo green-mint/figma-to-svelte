@@ -1,9 +1,13 @@
 <script>
-	// import from library
-	import ImageCompare from 'svelte-image-compare';
+	import SvelteImageCompare from 'svelte-image-compare';
 
-	export let before = 'https://picsum.photos/400/300';
-	export let after = 'https://picsum.photos/400/300';
+	// import from library
+	// import ImageCompare from 'svelte-image-compare';
 </script>
 
-<!-- <ImageCompare {before} {after} contain={true} /> -->
+<SvelteImageCompare
+    before="//placehold.it/600x200/E8117F/FFFFFF"
+    after="//placehold.it/600x200/CCCCCC/FFFFFF"
+    contain={true}
+>
+</SvelteImageCompare>
