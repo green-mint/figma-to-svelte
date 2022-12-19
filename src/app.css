@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Holybuck';
+	src: url('./fonts/Holybuckdemo.otf');
+	/* font-weight: 400; */
+	/* font-style: normal; */
+}
+
+@font-face {
+	font-family: 'Alaska';
+	src: url('./fonts/Alaska-VF.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f0ea;
+	font-family: 'Alaska', sans-serif;
+}
