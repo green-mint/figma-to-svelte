@@ -2,6 +2,14 @@
 module.exports = {
 	content: ['./src/**/*.{svelte,html,js,ts}'],
 	theme: {
+		fontWeight: {
+			thin: 100,
+			extralight: 200,
+			light: 300,
+			normal: 400,
+			semibold: 500,
+			bold: 600,
+		},
 		extend: {
 			fontFamily: {
 				holy: ['Holybuck', 'sans-serif']

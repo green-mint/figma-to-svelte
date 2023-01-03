@@ -1,13 +1,16 @@
 <script>
-	import SvelteImageCompare from 'svelte-image-compare';
-
-	// import from library
-	// import ImageCompare from 'svelte-image-compare';
+  import { CompareImage } from "svelte-compare-image";
+  // or
+  // import CompareImage from "svelte-compare-image/CompareImage.svelte";
 </script>
 
-<SvelteImageCompare
-    before="//placehold.it/600x200/E8117F/FFFFFF"
-    after="//placehold.it/600x200/CCCCCC/FFFFFF"
-    contain={true}
->
-</SvelteImageCompare>
+
+<CompareImage
+  imageLeftSrc="/images/content/before.png"
+  imageLeftAlt="Left"
+  imageRightSrc="/images/content/after.png"
+  imageRightAlt="right"
+  --handle-size="2.5rem"
+  --slider-color="#ffffff"
+  --slider-width="0.125rem"
+/>
